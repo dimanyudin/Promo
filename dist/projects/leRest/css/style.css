@@ -1938,7 +1938,7 @@ blockquote:after {
 
 .header__logo-inner.box-content::before {
   bottom: -64px;
-  left: -47px;
+  left: -48px;
 }
 
 .header__logo-inner.box-content::after {
@@ -2837,6 +2837,32 @@ blockquote:after {
   }
 }
 
+@media (max-width: 810px) {
+  .footer-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .footer-signup {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-nav__wrapper {
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .footer-nav__link {
+    padding: 5px 0;
+  }
+}
+
 @media (max-width: 768px) {
   .menu-hamb {
     display: block;
@@ -2927,6 +2953,13 @@ blockquote:after {
   }
 }
 
+@media (max-width: 700px) {
+  .footer-nav__title {
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+  }
+}
+
 @media (max-width: 462px) {
   .location__item-title {
     margin-bottom: 1.5625rem;
@@ -2957,6 +2990,14 @@ blockquote:after {
 
   .menus-item__title {
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-signup__input {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
   }
 }
 
